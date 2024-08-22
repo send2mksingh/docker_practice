@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u sendmksingh -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push javatechie/devops-integration'
+                   sh 'docker push sendmksingh/devops-integration'
                 }
             }
         }
